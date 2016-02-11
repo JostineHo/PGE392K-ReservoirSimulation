@@ -1,0 +1,78 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "# Problem 1 (50 points)\n",
+    "\n",
+    "The figure shown below is a structural contour map of the Nechelik field in the North Slope of Alaska to denote depth Note that each block in the contour map below is 523ft x 523 ft. The second contour plot is of reservoir thickness."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "src=\"files/ContourDepth.png\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "src=\"files/ContourThickness.png\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Your goal is develop a code to discretize the reservoir into rectangular grid blocks on a Cartesian grid and then assign a thickness and depth to each grid. For now, you can nominally use 54*44 (2376) grids but your code should be flexible enough to allow for any number of grids in the x- and y- directions. In fact, it should also allow for non-uniform grid sizes (but still rectangular/Cartesian).\n",
+    "\n",
+    "The first step is to use some sort of digitizing software to extract the depths and thicknesses from the provided contour plots. Note that there are several different free digitizing software on the internet. A simple Matlab add-in called “grabit” can help make determining x and y values of points on contour lines easy.\n",
+    "\n",
+    "For Python users, try this web-based plot digitizer: http://arohatgi.info/WebPlotDigitizer/"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
