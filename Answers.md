@@ -7,6 +7,7 @@
 **_Figure 1. Structural contour map of the Nechelik field._**
 
 ![Figure 2](https://github.com/JostineHo/PGE392K-ReservoirSimulation/blob/master/ContourThickness.png?raw=true)
+
 **_Figure 2. Reservoir thickness contour map of the Nechelik field._**
 
 Your goal is develop a code to discretize the reservoir into rectangular grid blocks on a Cartesian grid and then assign a thickness and depth to each grid. For now, you can nominally use 54*44 (2376) grids but your code should be flexible enough to allow for any number of grids in the x- and y- directions. In fact, it should also allow for non-uniform grid sizes (but still rectangular/Cartesian).
